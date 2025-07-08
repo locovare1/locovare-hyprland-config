@@ -1,0 +1,30 @@
+{
+    "layer": "top",
+    "margin-top": 14,
+    "margin-bottom": 0,
+    "margin-left": 14,
+    "margin-right": 14,    
+    "spacing": 0,
+
+    // Load Modules
+    "include": [
+        "~/.config/hypr/conf/settings/waybar-quicklinks.json",
+        "~/.config/waybar/modules.json"
+    ],    
+    "modules-left": [
+        "custom/appmenu",
+        "group/quicklinks",
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "clock",
+	"mpd", 
+        "pulseaudio", 
+        "keyboard-state", 
+        "battery", 
+        "tray",
+        "custom/exit"
+    ]
+}
